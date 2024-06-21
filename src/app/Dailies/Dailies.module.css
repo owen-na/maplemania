@@ -1,0 +1,44 @@
+.mainBox {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.customGoals {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.dailyParentBox {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 70vh;
+    justify-content: space-between;
+}
+
+.dailySection {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bossSeperation {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
