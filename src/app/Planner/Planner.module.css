@@ -1,0 +1,11 @@
+.tasks {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.charDisplay {
+    width: 30%;
+    height: 70%;
+}
