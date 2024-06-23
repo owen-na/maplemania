@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import NavBar from "./Navbar/Navbar";
+import NavBar from "../Components/Navbar/Navbar";
 import Dailies from "./Dailies/Dailies";
 import Planner from "./Planner/Planner";
 

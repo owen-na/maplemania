@@ -1,4 +1,5 @@
 import styles from './Dailies.module.css'
+import NavBar from '@/Components/Navbar/Navbar'
 
 // https://maplestory.fandom.com/wiki/Maple_Guide 
 // will be used for bosses ui here
@@ -6,6 +7,8 @@ import styles from './Dailies.module.css'
 
 export default function Dailies() {
     return (
+        <>
+        <NavBar />
         <div className={styles.mainBox}>
             <div className={styles.customGoals}>
                 <h1>Today's session goals</h1>
@@ -33,5 +36,6 @@ export default function Dailies() {
             </div>
         </div>
     </div>
+    </>
     )
 }

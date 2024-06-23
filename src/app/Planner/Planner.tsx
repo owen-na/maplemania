@@ -1,6 +1,9 @@
+"use client";
+
 import TaskHolder from "@/Components/TaskHolder/TaskHolder";
-import { useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import styles from "./Planner.module.css"
+import axios from 'axios';
 
 export default function Planner() {
     return (
@@ -19,19 +22,43 @@ export default function Planner() {
 
 function nameGetter() {
 
-    const [region, setRegion] = useState('1'); // Default to 'NA'
-    const [inGameName, setInGameName] = useState('');
+    const [region, setRegion] = useState<string>('1'); // Default to 'NA'
+    const [inGameName, setInGameName] = useState<string>('');
+    const [profileInfo, setProfileInfo] = useState<string>('');
+
+
+    const handleRegionChange = async (event: ChangeEvent<HTMLSelectElement>) => {
+        setRegion(event.target.value);
+    };
+
+    const handleNameChange = async (event: ChangeEvent<HTMLInputElement>) => {
+        setInGameName(event.target.value);
+    };
+
+    const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        try {
+            const response = await axios.post('/api/route');
+            setProfileInfo(response.data.profileInfo);
+        } catch (error) {
+            console.error('Error fetching profile:', error);
+        }
+    };
 
     return (
         <>
-         <form>
-            <select>
+         <form onSubmit={handleSubmit}>
+            <select value={region} onChange={handleRegionChange}>
                 <option value={1}>NA</option>
                 <option value={2}>EU</option>
             </select>
-            <input type="text" placeholder="in-game name"></input>
+            <input type="text" placeholder="in-game name" value={inGameName} onChange={handleNameChange}></input>
             <input type="submit" value="Search"></input>
          </form>
+         <div>
+            <h2>Profile Info</h2>
+            <div dangerouslySetInnerHTML={{ __html: profileInfo }} />
+        </div>
         </>
     )
 }
