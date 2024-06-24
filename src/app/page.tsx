@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import NavBar from "../Components/Navbar/Navbar";
-import Dailies from "./Dailies/Dailies";
-import Planner from "./Planner/Planner";
+import Dailies from "./Dailies/page";
+import Planner from "./Planner/page";
 
 // https://www.chartjs.org/docs/latest/charts/radar.html
 // for radar graph i really liked the look of to use with the web scrape later

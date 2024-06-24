@@ -1,3 +1,4 @@
+import Link from "next/link"
 import styles from "./Navbar.module.css"
 import Image from "next/image"
 
@@ -10,9 +11,13 @@ export default function NavBar() {
                 width={200}
                 height={200}
             /> */}
-            <p>dalies</p>
+            <Link href="/Dailies">
+                <p>dalies</p>
+            </Link>
             <p>weeklies/monthly</p>
-            <p>planner</p>
+            <Link href="/Planner">
+                <p>planner</p>
+            </Link>
             <p>Event</p>
         </div>
     )
