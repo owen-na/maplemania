@@ -57,9 +57,14 @@ export async function POST(request: NextRequest) {
     // console.log(response.text());
     // cache for later 
     let text = await response.text();
-    const regex = /?(<div class="card mb-2".*img.*char-stat-right.*<\/ul> <\/div>)/g
-    console.log(text.toString().match(regex));
-    return new Response(text);
+    const regex = /<div class="card mb-2".+?img.+?char-stat-right.+?(?=alert alert-secondary py-2)(?=.*<\/ul> <\/div>)/g
+    
+    // /<div class="card mb-2".+?img.+?char-stat-right.+?(?=<div class="card mb-2")(?=.*<\/ul> <\/div>)/g
+    // prev working regex
+
+    const idCard = text.toString().match(regex);
+    const idCardText = idCard? idCard[0] : "";
+    return new Response(idCardText);
 }
 
 export async function GET(request: NextApiRequest) {

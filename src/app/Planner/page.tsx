@@ -38,13 +38,17 @@ function nameGetter() {
     const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         try {
-            console.log("heeloo!");
             const apiCall = async () => {
                 let response = await fetch('/api', {
                     method: 'POST',
                     body: JSON.stringify({name: inGameName})
                 }
                 )
+                const text = await response.text();
+                console.log(text);
+                if (document.getElementById("idCard") != null) {
+                    document.getElementById("idCard")!.innerHTML = text
+                }
                 return response.text();
             }
             await apiCall();
@@ -69,7 +73,7 @@ function nameGetter() {
          </form>
          <div>
             {/* <h2>Profile Info</h2> */}
-            <div dangerouslySetInnerHTML={{ __html: profileInfo }} />
+            <div id="idCard" dangerouslySetInnerHTML={{ __html: profileInfo }} />
         </div>
         </>
     )
