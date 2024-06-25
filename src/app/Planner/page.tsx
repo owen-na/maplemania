@@ -38,8 +38,20 @@ function nameGetter() {
     const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         try {
-            const response = await axios.post('/api/route');
-            setProfileInfo(response.data.profileInfo);
+            console.log("heeloo!");
+            const apiCall = async () => {
+                let response = await fetch('/api', {
+                    method: 'POST',
+                    body: JSON.stringify({name: inGameName})
+                }
+                )
+                return response.text();
+            }
+            await apiCall();
+            // const test = await apiCall();
+            // console.log(test.json());
+            // const response = await axios.post('/api', { region, inGameName });
+            // setProfileInfo(response.data.profileInfo);
         } catch (error) {
             console.error('Error fetching profile:', error);
         }
@@ -56,7 +68,7 @@ function nameGetter() {
             <input type="submit" value="Search"></input>
          </form>
          <div>
-            <h2>Profile Info</h2>
+            {/* <h2>Profile Info</h2> */}
             <div dangerouslySetInnerHTML={{ __html: profileInfo }} />
         </div>
         </>
