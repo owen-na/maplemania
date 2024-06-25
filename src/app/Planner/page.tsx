@@ -61,6 +61,10 @@ function nameGetter() {
         }
     };
 
+
+    // TODO
+    // change to use FormData(event.currentTarget)?
+
     return (
         <>
          <form onSubmit={handleSubmit}>
