@@ -59,6 +59,8 @@ export async function POST(request: NextRequest) {
     let text = await response.text();
     const regex = /<div class="card mb-2".+?img.+?char-stat-right.+?(?=alert alert-secondary py-2)(?=.*<\/ul> <\/div>)/g
     
+    // the regex in question : regexr.com/822d2
+    // btoa to dencode atob
     // /<div class="card mb-2".+?img.+?char-stat-right.+?(?=<div class="card mb-2")(?=.*<\/ul> <\/div>)/g
     // prev working regex
 
