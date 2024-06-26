@@ -1,12 +1,15 @@
 "use client";
 
+import NavBar from "@/Components/Navbar/Navbar";
 import TaskHolder from "@/Components/TaskHolder/TaskHolder";
 import { ChangeEvent, FormEvent, useState } from "react";
 import styles from "./Planner.module.css"
-import axios from 'axios';
+
 
 export default function Planner() {
     return (
+        <>
+        <NavBar />
         <div className={styles.tasks}>
             <TaskHolder title = "Gear Upgrades"/>
             <TaskHolder title = "Farming Goals"/> 
@@ -17,6 +20,7 @@ export default function Planner() {
             {/* gear upgrades, farming goals, estimated costs*/}
              {/* need it where it has to be showing off reccomendations? not sure yet*/}
         </div>
+        </>
     )
 }
 
@@ -67,7 +71,7 @@ function nameGetter() {
 
     return (
         <>
-         <form onSubmit={handleSubmit}>
+         <form className={styles.form} onSubmit={handleSubmit}>
             <select value={region} onChange={handleRegionChange}>
                 <option value={1}>NA</option>
                 <option value={2}>EU</option>

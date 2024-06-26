@@ -11,14 +11,17 @@ export default function NavBar() {
                 width={200}
                 height={200}
             /> */}
+            <div className={styles.links}>
             <Link href="/Dailies">
                 <p>dalies</p>
             </Link>
-            <p>weeklies/monthly</p>
             <Link href="/Planner">
                 <p>planner</p>
             </Link>
-            <p>Event</p>
+            <Link href="/Event">
+                <p>Event</p>
+            </Link>
+            </div>
         </div>
     )
 }

@@ -2,7 +2,15 @@
     width: 100vw;
     height: 10vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
     border: black solid;
+}
+
+.links {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
