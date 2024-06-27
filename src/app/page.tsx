@@ -16,7 +16,6 @@ import Planner from "./Planner/page";
 
 export default function Home() {
   return (<>
-    <NavBar />
     {/* <Dailies /> */}
     <Planner />
     </>
