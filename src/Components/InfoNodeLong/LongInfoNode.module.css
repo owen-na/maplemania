@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid;
+}
+
+.checker {
+    padding: .5rem;
+}

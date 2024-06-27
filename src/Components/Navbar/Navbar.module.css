@@ -2,9 +2,10 @@
     width: 100vw;
     height: 10vh;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     border: black solid;
+    /* position: fixed; */
 }
 
 .links {
@@ -13,4 +14,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 75%;
+    height: 75%;
 }

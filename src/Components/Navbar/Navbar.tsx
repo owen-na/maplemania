@@ -5,12 +5,14 @@ import Image from "next/image"
 export default function NavBar() {
     return (
         <div className={styles.bar}>
-            {/* <Image
+            <div className={styles.logo}>
+            <Image
                 src="https://img.favpng.com/1/1/9/maplestory-2-maple-leaf-png-favpng-gRahWewr9VEviM0jd8PZHgqkY.jpg"
                 alt="picture of a maple leaf"
-                width={200}
-                height={200}
-            /> */}
+                layout='fill'
+                objectFit='contain'
+            />
+            </div>
             <div className={styles.links}>
             <Link href="/Dailies">
                 <p>dalies</p>
