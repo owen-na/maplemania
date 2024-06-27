@@ -41,7 +41,10 @@ export default function Dailies() {
             </div>
             <div className={styles.dailySection}>
                 <h2>Growth</h2>
-            </div>
+                <LongInfoNode imageHref="https://media.maplestorywiki.net/yetidb/Boss_UI_-_Ursus.png" desc="Ursus" />
+                <LongInfoNode imageHref="https://media.maplestorywiki.net/yetidb/NPC_Laku.png" desc="Monster Park" />
+                <LongInfoNode imageHref="https://media.maplestorywiki.net/yetidb/NPC_Travel_Bag.png"desc="Maple Tour" />
+            </div> 
         </div>
     </div>
     </div>
