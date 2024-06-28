@@ -1,6 +1,6 @@
 .bar {
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,8 @@
 .logo {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     position: relative;
-    width: 75%;
-    height: 75%;
+    width: 10%;
+    height: 100%;
 }

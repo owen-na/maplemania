@@ -7,8 +7,8 @@ export default function NavBar() {
         <div className={styles.bar}>
             <div className={styles.logo}>
             <Image
-                src="https://img.favpng.com/1/1/9/maplestory-2-maple-leaf-png-favpng-gRahWewr9VEviM0jd8PZHgqkY.jpg"
-                alt="picture of a maple leaf"
+                src="https://media.maplestorywiki.net/yetidb/NPCArtwork_Tana_%2812%29.png"
+                alt="Tana as logo"
                 layout='fill'
                 objectFit='contain'
             />
