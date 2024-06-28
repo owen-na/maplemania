@@ -1,6 +1,8 @@
 import styles from './Dailies.module.css'
 import NavBar from '@/Components/Navbar/Navbar'
 import LongInfoNode from '@/Components/InfoNodeLong/LongInfoNode'
+import InfoNode from '@/Components/InfoNode/InfoNode'
+
 
 // https://maplestory.fandom.com/wiki/Maple_Guide 
 // will be used for bosses ui here
@@ -19,11 +21,11 @@ export default function Dailies() {
             <div className={styles.dailySection}>
                 <h2>Bosses</h2>
                 <div className={styles.bossSeperation}>
-                    <div>
+                    <div className={styles.splitBosses}>
                         <h3>Pre-Tene</h3>
-                        <p>boo its pinkbean</p>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
                     </div>
-                    <div>
+                    <div className={styles.splitBosses}>
                         <h3>Post-Tene</h3>
                         <p>normal gloom :0</p>
                     </div>
