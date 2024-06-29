@@ -15,9 +15,10 @@ import Planner from "./Planner/page";
 
 
 export default function Home() {
-  return (<>
+  return (
+    <div>
     {/* <Dailies /> */}
     <Planner />
-    </>
+    </div>
   );
 }

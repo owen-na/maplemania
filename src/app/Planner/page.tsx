@@ -9,7 +9,6 @@ import styles from "./Planner.module.css"
 export default function Planner() {
     return (
         <div className={styles.mainContent}>
-        <NavBar />
         <div className={styles.tasks}>
             <TaskHolder title = "Gear Upgrades"/>
             <TaskHolder title = "Farming Goals"/> 
@@ -86,20 +85,3 @@ function nameGetter() {
         </>
     )
 }
-
-//  × You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
-//   │ Learn more: https://nextjs.org/docs/getting-started/react-essentials
-//   │ 
-//   │ 
-//    ╭─[/Users/owen/StudioProjects/maplemania/src/app/Planner/Planner.tsx:1:1]
-//  1 │ import TaskHolder from "@/Components/TaskHolder/TaskHolder";
-//  2 │ import { useState } from "react";
-//    ·          ────────
-//  3 │ import styles from "./Planner.module.css"
-//  4 │ 
-//  5 │ export default function Planner() {
-//    ╰────
-
-// Import trace for requested module:
-// ./src/app/Planner/Planner.tsx
-// ./src/app/page.tsx

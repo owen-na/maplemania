@@ -10,8 +10,6 @@ import InfoNode from '@/Components/InfoNode/InfoNode'
 
 export default function Dailies() {
     return (
-        <div>
-        <NavBar />
         <div className={styles.mainBox}>
             <div className={styles.customGoals}>
                 <h1>Today's session goals</h1>
@@ -24,10 +22,18 @@ export default function Dailies() {
                     <div className={styles.splitBosses}>
                         <h3>Pre-Tene</h3>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Hilla.png" desc="Hilla"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
                     </div>
                     <div className={styles.splitBosses}>
                         <h3>Post-Tene</h3>
-                        <p>normal gloom :0</p>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Verus_Hilla.png" desc="Verus Hilla"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
                     </div>
                 </div>
             </div>
@@ -48,7 +54,6 @@ export default function Dailies() {
                 <LongInfoNode imageHref="https://media.maplestorywiki.net/yetidb/NPC_Travel_Bag.png"desc="Maple Tour" />
             </div> 
         </div>
-    </div>
     </div>
     )
 }

@@ -1,11 +1,18 @@
 .box {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 70%;
     height: 15%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border: solid;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.box p {
+    text-align: left;
+    flex: 1;
 }
 
 .checker {

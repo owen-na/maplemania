@@ -5,6 +5,8 @@ export default function InfoNode({imageHref, desc} : {imageHref : string, desc :
     return (
 
             <li className={styles.smallBox}>
+                <input type="checkbox"></input>
+                <p>{desc}</p>
                 <Image
                 src={imageHref}
                 alt={desc}
