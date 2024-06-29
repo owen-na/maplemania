@@ -17,8 +17,7 @@ import Planner from "./Planner/page";
 export default function Home() {
   return (
     <div>
-    {/* <Dailies /> */}
-    <Planner />
+      <p>Welcome to MapleMania, its a WIP ;-;</p>
     </div>
   );
 }

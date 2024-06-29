@@ -20,17 +20,21 @@ export default function Dailies() {
                 <h2>Bosses</h2>
                 <div className={styles.bossSeperation}>
                     <div className={styles.splitBosses}>
-                        <h3>Pre-Tene</h3>
+                        <h3>Pre-Arcane</h3>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Hilla.png" desc="Hilla"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Papulatus.png" desc="Papulatus"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Mori_Ranmaru.png" desc="Mori R."/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Horntail.png" desc="Horntail"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Pierre.png" desc="Perrie"/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
-                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
-                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
-                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
-                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Cygnus.png" desc="Cygnus" />
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Von_Leon.png" desc="Von Leon" />
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Pink_Bean.png" desc="Pink Bean" />
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Gollux.png" desc="Gollux" />
                     </div>
                     <div className={styles.splitBosses}>
-                        <h3>Post-Tene</h3>
+                        <h3>Arcane/Ongoing</h3>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Verus_Hilla.png" desc="Verus Hilla"/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>

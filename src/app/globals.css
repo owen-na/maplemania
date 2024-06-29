@@ -98,6 +98,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  font-size: 1.75rem; /* edit out if needed for future comps to have anchors */
 }
 
 @media (prefers-color-scheme: dark) {

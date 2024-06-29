@@ -21,14 +21,14 @@
 .dailyParentBox {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 95%;
     /* height: 70vh; */
     justify-content: space-between;
     margin-top: 1rem ;
 }
 
 .dailySection {
-    width: 30%;
+    width: 30vw;
     /* height: 100%; */
     display: flex;
     /* justify-content: space-between; */
@@ -37,9 +37,9 @@
     gap: 1rem;
 }
 
-/* .dailySection:nth-child(1) {
-
-} */
+.dailySection:nth-child(2):nth-child(3) {
+    height: 60vh;
+} 
 
 .bossSeperation {
     display: flex;
