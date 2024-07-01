@@ -6,12 +6,14 @@ export default function NavBar() {
     return (
         <div className={styles.bar}>
             <div className={styles.logo}>
+            <Link href="/">
             <Image
                 src="https://media.maplestorywiki.net/yetidb/NPCArtwork_Tana_%2812%29.png"
                 alt="Tana as logo"
                 layout='fill'
                 objectFit='contain'
             />
+            </Link>
             </div>
             <div className={styles.links}>
             <Link href="/Dailies">

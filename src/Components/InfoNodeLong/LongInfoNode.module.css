@@ -18,3 +18,10 @@
 .checker {
     padding: .5rem;
 }
+
+@media (max-width: 1920px) and (max-height: 1080px) {
+    .checker {
+        padding: 4rem;
+    }
+
+}
