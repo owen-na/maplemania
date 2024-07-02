@@ -101,9 +101,9 @@ a {
    font-size: 4rem;
 }
 
-p {
+/* p {
   font-size: 3rem;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   html {

@@ -37,6 +37,10 @@
     gap: 1rem;
 }
 
+.dailySection h2 {
+    font-size: 3rem;
+}
+
 .dailySection:nth-child(2):nth-child(3) {
     height: 60vh;
 } 
