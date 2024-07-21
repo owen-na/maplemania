@@ -7,12 +7,14 @@ export default function NavBar() {
         <div className={styles.bar}>
             <div className={styles.logo}>
             <Link href="/">
-            <Image
+                <Image
+                fill
                 src="https://media.maplestorywiki.net/yetidb/NPCArtwork_Tana_%2812%29.png"
                 alt="Tana as logo"
-                layout='fill'
-                objectFit='contain'
-            />
+                // layout='fill'
+                // objectFit='contain'
+                // sizes="(max-width: 414px) 20vw, 10vh"
+                />
             </Link>
             </div>
             <div className={styles.links}>

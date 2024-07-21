@@ -13,3 +13,17 @@
         height: 30vh;
     }    
 }
+
+@media screen and (max-width: 375px) {
+    .taskContainer {
+        width: 100vw;
+        height: 30vh;
+    }  
+}
+
+@media screen and (max-width: 414px) {
+    .taskContainer {
+        width: 100vw;
+        height: 30vh;
+    }  
+}
