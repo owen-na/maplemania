@@ -2,18 +2,22 @@
     width: 100vw;
     height: 15vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border: black solid;
     /* position: fixed; */
 }
 
 .links {
-    width: 30%;
+    width: 40%;
     height: inherit;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.links p {
+    font-size: .5rem;
 }
 
 .logo {

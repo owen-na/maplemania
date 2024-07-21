@@ -12,10 +12,14 @@ export default function Planner() {
         <div className={styles.tasks}>
             <TaskHolder title = "Gear Upgrades"/>
             <TaskHolder title = "Farming Goals"/> 
-            <div className={styles.charDisplay}>
+
+            {/* the bottom portion will be removed for now for progression to a MWV */}
+
+
+            {/* <div className={styles.charDisplay}> */}
                 {/* <p>Parsing MapleRanks or Maplestory rankings page for banner of main character</p> */}
-                {nameGetter()}
-            </div>
+                {/* {nameGetter()} */}
+            {/* </div> */}
             {/* gear upgrades, farming goals, estimated costs*/}
              {/* need it where it has to be showing off reccomendations? not sure yet*/}
         </div>
