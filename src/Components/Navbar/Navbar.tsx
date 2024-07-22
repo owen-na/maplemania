@@ -25,7 +25,7 @@ export default function NavBar() {
                 <p>planner</p>
             </Link>
             <Link href="/Event">
-                <p>Event</p>
+                <p>event</p>
             </Link>
             </div>
         </div>

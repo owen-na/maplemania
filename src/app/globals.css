@@ -86,13 +86,15 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background-color: #3D3D3D;
+  color: #F5F5F5;
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -108,6 +110,10 @@ a {
 .Navbar_logo__l7h41 {
   max-width: 126px;
   max-height: 133px;
+}
+
+.Navbar_bar__m8uJZ {
+  background-color: #2C2C2C;
 }
 
 @media (prefers-color-scheme: dark) {

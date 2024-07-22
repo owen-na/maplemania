@@ -1,5 +1,3 @@
-import NavBar from "@/Components/Navbar/Navbar"
-
 export default function Event() {
     return (
         <div> 
