@@ -105,8 +105,14 @@ a {
   font-size: 3rem;
 } */
 
+.Navbar_logo__l7h41 {
+  max-width: 126px;
+  max-height: 133px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
 }

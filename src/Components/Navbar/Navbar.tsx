@@ -12,7 +12,7 @@ export default function NavBar() {
                 src="https://media.maplestorywiki.net/yetidb/NPCArtwork_Tana_%2812%29.png"
                 alt="Tana as logo"
                 // layout='fill'
-                // objectFit='contain'
+                objectFit='contain'
                 // sizes="(max-width: 414px) 20vw, 10vh"
                 />
             </Link>
