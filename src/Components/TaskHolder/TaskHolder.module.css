@@ -33,5 +33,6 @@
     .taskContainer {
         width: 40vw;
         height: 50vh;
+        font-size: .5rem;
     }
 }
