@@ -68,6 +68,10 @@
         height: 75%;
     }
 
+    .links p {
+        font-size: .75rem;
+        margin: 5px;
+    }
 
 }
 

@@ -17,8 +17,8 @@
     width: 3vw;
     height: 3vh;
 }
-
-@media screen and (min-width: 1920px) {
+/* 
+@media screen and (max-width: 1920px) {
     .smallBox p {
         font-size: 3rem;
     }
@@ -28,4 +28,20 @@
         height: 2vh;
     }
     
+} */
+
+@media screen and (max-width: 360px) {
+    .smallBox {
+        width: 100%;
+
+    }
+    
+    .smallBox p {
+        font-size: 1.5rem;
+    }
+
+    .smallBoxChecker {
+        width: 4vw;
+        height: 4vh;
+    }
 }

@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-around;
     font-size: 2rem;
+    margin-top: .5rem;
 }
 
 .customGoals button {
@@ -70,4 +71,49 @@
 
 .splitBosses h3 {
     font-size: 3rem;
+}
+
+@media screen and (max-width: 360px) {
+    .customGoals {
+        font-size: .5rem;
+        height: 12.5vh;
+
+    }
+
+    .customGoals button {
+        padding: .5rem;
+        font-size: inherit;
+    }
+
+    .dailyParentBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dailySection {
+        width: 80vw;
+        height: auto;
+    }
+
+    .dailySection h2 {
+        font-size: 2rem;
+    }
+
+    .bossSeperation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .splitBosses {
+        width: 80vw;
+    }
+
+    .splitBosses h3 {
+        font-size: 1rem;
+    }
+
 }
