@@ -31,8 +31,8 @@ export default function LongInfoNode({imageHref, desc} : {imageHref : string, de
                 <Image
                 src={imageHref}
                 alt="test"
-                width={100}
-                height={100}
+                width={50}
+                height={50}
                 />
             </li>
     )

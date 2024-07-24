@@ -16,8 +16,8 @@
 }
 
 .checker {
-    width: 2vw;
-    height: 2vh;
+    width: 4vw;
+    height: 4vh;
 }
 
 @media screen and (min-width: 1920px) {
@@ -30,6 +30,23 @@
         font-size: 3rem;
     }
 
+}
 
 
+
+@media screen and (max-width: 414px) {
+    .box {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .box {
+        width: 80vw;
+    }
+
+    /* .box Image {
+        width: 10%;
+        height: 10%;
+    } */
 }

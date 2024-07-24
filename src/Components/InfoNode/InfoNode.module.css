@@ -14,8 +14,8 @@
 }
 
 .smallBoxChecker {
-    width: 3vw;
-    height: 3vh;
+    width: 4vw;
+    height: 4vh;
 }
 /* 
 @media screen and (max-width: 1920px) {
@@ -30,6 +30,18 @@
     
 } */
 
+@media screen and (max-width: 414px) {
+    .smallBox p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .smallBox p {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .smallBox {
         width: 100%;
@@ -40,8 +52,4 @@
         font-size: 1.5rem;
     }
 
-    .smallBoxChecker {
-        width: 4vw;
-        height: 4vh;
-    }
 }
