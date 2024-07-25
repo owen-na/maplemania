@@ -41,6 +41,7 @@ export default function Dailies() {
                     </div>
                 </div>
             </div>
+            <div className={styles.bottomPortion}>
             <div className={styles.dailySection}>
                 {/* will need to decide to either change it up div name wise or smthg else */}
                 <h2>Arcane Dailies</h2>
@@ -57,6 +58,7 @@ export default function Dailies() {
                 <LongInfoNode imageHref="https://media.maplestorywiki.net/yetidb/NPC_Laku.png" desc="Monster Park" />
                 <LongInfoNode imageHref="https://media.maplestorywiki.net/yetidb/NPC_Travel_Bag.png"desc="Maple Tour" />
             </div> 
+            </div>
         </div>
     </div>
     )
