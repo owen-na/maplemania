@@ -28,7 +28,7 @@
 .dailyParentBox {
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
     /* height: 70vh; */
     justify-content: space-between;
     margin-top: 1rem ;
@@ -73,6 +73,42 @@
     font-size: 3rem;
 }
 
+@media screen and (max-width: 810px) {
+    .customGoals {
+        font-size: .5rem;
+        height: 12.5vh;
+    }
+
+    .customGoals button {
+        padding: .5rem;
+        font-size: inherit;
+    }
+
+    .dailySection {
+        width: 40vw;
+    }
+
+    /* .bottomPortion{
+        width: 30vw;
+    } */
+
+    .dailySection h2 {
+        font-size: 2rem;
+    }
+
+    .splitBosses h3 {
+        font-size: 1rem;
+    }
+
+    .bottomPortion {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .customGoals {
         font-size: .5rem;
@@ -97,7 +133,7 @@
     }
 
     .dailySection h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .bossSeperation {
@@ -112,7 +148,7 @@
     }
 
     .splitBosses h3 {
-        font-size: 1rem;
+        font-size: .85rem;
     }
 
     .bottomPortion {
@@ -165,6 +201,12 @@
         font-size: 1rem;
     }
 
+    .bottomPortion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -208,6 +250,12 @@
 
     .splitBosses h3 {
         font-size: 1rem;
+    }
+
+    .bottomPortion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }

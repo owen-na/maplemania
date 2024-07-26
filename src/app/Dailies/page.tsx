@@ -1,5 +1,4 @@
 import styles from './Dailies.module.css'
-import NavBar from '@/Components/Navbar/Navbar'
 import LongInfoNode from '@/Components/InfoNodeLong/LongInfoNode'
 import InfoNode from '@/Components/InfoNode/InfoNode'
 

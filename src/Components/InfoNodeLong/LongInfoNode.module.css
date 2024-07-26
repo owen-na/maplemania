@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: row;
     width: 21vw;
-    height: 8vh;
+    /* height: 8vh; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border: solid;
     padding: 0 1rem;
     gap: 1rem;
@@ -27,14 +27,34 @@
     }
 
     .box p {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
+}
+
+@media screen and (max-width: 810px) {
+
+    .box {
+        width: 25vw;
+    }
+
+    .checker {
+        width: 2vw;
+        height: 2vh;
+    }
+
+    .box p {
+        font-size: .7rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .box {
         width: 40vw;
+    }
+
+    .box p {
+        font-size: .5rem;
     }
 }
 
