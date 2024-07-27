@@ -16,8 +16,18 @@ import Planner from "./Planner/page";
 
 export default function Home() {
   return (
-    <div>
-      <p>Welcome to MapleMania, its a WIP ;-;</p>
+    <div className={styles.splashpage}>
+      <h1>Welcome to MapleMania!</h1>
+      <div className={styles.content}>
+        <div className={styles.updates}>
+          <h3>Changelogs &#40;As of July 27th, 2024&#41;</h3>
+          <h2>Version 0.1</h2>
+          <li>MWV for all pages on ports up to common tablet sizes</li>
+        </div>
+        <div>
+          <h3>Feedback!</h3>
+        </div>
+      </div>
     </div>
   );
 }
