@@ -30,6 +30,17 @@
     
 } */
 
+@media screen and (max-width: 1280px) {
+    .smallBoxChecker {
+        width: 2.5vw;
+        height: 2.5vh;
+    }
+
+    .smallBox p {
+        font-size: .8rem;
+    }
+}
+
 @media screen and (max-width: 810px) {
     .smallBox p {
         font-size: .75rem;

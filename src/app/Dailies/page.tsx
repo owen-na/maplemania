@@ -22,7 +22,7 @@ export default function Dailies() {
                         <h3>Pre-Arcane</h3>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Hilla.png" desc="Hilla"/>
-                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Papulatus.png" desc="Papulatus"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Papulatus.png" desc="Papa."/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Mori_Ranmaru.png" desc="Mori R."/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Horntail.png" desc="Horntail"/>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Pierre.png" desc="Perrie"/>

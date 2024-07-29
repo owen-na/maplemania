@@ -23,6 +23,8 @@ export default function Home() {
           <h3>Changelogs &#40;As of July 27th, 2024&#41;</h3>
           <h2>Version 0.1</h2>
           <li>MWV for all pages on ports up to common tablet sizes</li>
+          <h2>Version 0.2</h2>
+          <li>MWV for all pages on ports up to common PC sizes</li>
         </div>
         <div>
           <h3>Feedback!</h3>
