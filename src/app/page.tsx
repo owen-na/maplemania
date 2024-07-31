@@ -25,6 +25,8 @@ export default function Home() {
           <li>MWV for all pages on ports up to common tablet sizes</li>
           <h2>Version 0.2</h2>
           <li>MWV for all pages on ports up to common PC sizes</li>
+          <h2>Version 0.3</h2>
+          <li>Updated Bosses on the daily page to include Grandis Bosses</li>
         </div>
         <div>
           <h3>Feedback!</h3>

@@ -35,8 +35,14 @@ export default function Dailies() {
                     <div className={styles.splitBosses}>
                         <h3>Arcane/Ongoing</h3>
                         <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Verus_Hilla.png" desc="Verus Hilla"/>
-                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
-                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Zakum.png" desc="Zakum"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Giant_Monster_Gloom.png" desc="Gloom"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Lucid.png" desc="Lucid"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Will.png" desc="Will"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Black_Mage.png" desc="Black" />
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Guard_Captain_Darknell.png" desc="Darknell" />
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Chosen_Seren.png" desc="Seren" />
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Kalos_the_Guardian.png" desc="Kalos"/>
+                        <InfoNode imageHref="https://media.maplestorywiki.net/yetidb/Maple_Guide_-_Kaling.png" desc="Kaling"/>
                     </div>
                 </div>
             </div>
