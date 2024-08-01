@@ -1,0 +1,9 @@
+.modalBox {
+    background-color: darkslateblue;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 40vw;
+    height: 35vh;
+    overflow: auto;
+}

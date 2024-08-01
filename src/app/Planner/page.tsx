@@ -1,6 +1,5 @@
 "use client";
 
-import NavBar from "@/Components/Navbar/Navbar";
 import TaskHolder from "@/Components/TaskHolder/TaskHolder";
 import { ChangeEvent, FormEvent, useState } from "react";
 import styles from "./Planner.module.css"
