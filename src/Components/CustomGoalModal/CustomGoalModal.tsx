@@ -10,6 +10,9 @@ const CustomGoalModal: React.FC<CustomGoalModalProps> = ({ isVisible, onClose })
     if (!isVisible) {
         return null;
     }
+ 
+    // must figure out how to keep localstorage/session here or needs to be implemented in another 
+
 
     return (
         <div className={styles.modalOverlay}>

@@ -21,7 +21,7 @@ const HomePage: React.FC<HomePageProps> = ({ title }) => {
         <div className={styles.taskContainer}>
             <p>{title}</p>
             <button onClick={openModal}>Open Modal</button>
-            <CustomGoalModal isVisible={isModalVisible} onClose={closeModal} />
+            <CustomGoalModal isVisible={isModalVisible} onClose={closeModal}  />
         </div>
     );
 };
